@@ -1,0 +1,21 @@
+POST http://localhost:3333/api/urls
+Content-Type: application/json
+
+{
+    "code": "test",
+    "url": "https://www.google.com"
+}
+
+###
+
+GET http://localhost:3333/api/urls
+
+
+###
+
+GET http://localhost:3333/test
+
+
+###
+
+GET http://localhost:3333/api/metrics
